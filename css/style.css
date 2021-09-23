@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* estilos header */
+
+.botonMenu {
+  color: white;
+}
+
+.imagenHeader {
+  width: 100%;
+  height: 450px;
+  background-image: url(../img/pizza.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logoHeader {
+  width: 95px;
+}
+
+.boxLogo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fondoCanvas {
+  background-color: #9f1137;
+}
+
+.linkReservar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.linkContacto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.linkMenu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.fondoSubmenu {
+  background-color: #de3e69;
+}
+
+.itemSubmenu {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: rgba(3, 3, 3, 0.15);
+}
+
+.tituloCanvas {
+  font-family: "Montserrat", sans-serif;
+  color: #9f1137;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* estilos footer */
+
+.logoFooter {
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #9f1137;
+  height: 250px;
+}
+.contenedorFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.iconWhatsapp {
+  font-size: 33px;
+  color: #ffffff;
+}
+.iconWhatsapp:hover {
+  color: #ebbe44;
+}
+
+.iconFacebook {
+  margin-top: 35px;
+  font-size: 33px;
+  color: #ffffff;
+}
+.iconFacebook:hover {
+  color: #ebbe44;
+}
+
+.iconInstagram {
+  margin-top: 35px;
+  font-size: 33px;
+  color: #ffffff;
+}
+.iconInstagram:hover {
+  color: #ebbe44;
+}
+
+.socialMedia {
+  margin-top: 35px;
+  margin-right: 35px;
+}
+
+.textFooter {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* estilos main */
+
+main {
+  height: 100vh;
+}
+
+.tittleMenu {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.pastas h2 {
+  margin-top: 80px;
+  margin-left: 50px;
+}

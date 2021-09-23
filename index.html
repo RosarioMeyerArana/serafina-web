@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font montserrat -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600700&display=swap');
+    </style>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/95d0721837.js" crossorigin="anonymous">
+    </script>
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Serafina</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <div class="boxLogo">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo-serafina.svg" alt="" class="logoHeader">
+            </a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <p class="offcanvas-title tituloCanvas" id="offcanvasNavbarLabel">Serafina | Restaurante Italiano</p>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body fondoCanvas">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <a class="nav-link dropdown-toggle linkMenu" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    menú
+                  </a>
+                  <ul class="dropdown-menu fondoSubmenu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item itemSubmenu" href="#">Pastas</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#">Lasagna</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#">Licores</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#">Pizzas</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#">Fuertes</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#">Burgers</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item linkReservar">
+                  <a class="nav-link" aria-current="page" href="#">reservar</a>
+                </li>
+                <li class="nav-item linkContacto">
+                  <a class="nav-link" href="#">contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="imagenHeader">
+      </div>
+      <main>
+        <section class="pastas">
+            <h2 class="tittleMenu" id="pastas">pastas</h2>
+        </section>
+      </main>
+      <footer>
+        <div class="contenedorFooter">
+            <div>
+                <img src="img/logo-serafina.svg" alt="logo serafina" class="logoFooter">
+            </div>
+            <section class="socialMedia">
+                <div>
+                    <a href=""><i class="iconWhatsapp fab fa-whatsapp"></i></a>
+                </div>
+                <div>
+                    <a href=""><i class="iconFacebook fab fa-facebook-square"></i></a>
+                </div>
+                <div>
+                    <a href=""><i class="iconInstagram fab fa-instagram"></i></a>
+                </div>
+            </section>
+        </div>
+        <p class="textFooter">@2021 Serafina</p>
+    </footer>
+      <!-- js de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
