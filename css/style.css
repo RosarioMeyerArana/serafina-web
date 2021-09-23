@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 
-/* estilos header */
-
-.botonMenu {
-  color: white;
+.menuIzquierda {
+  max-width: 60%;
 }
 
+/* estilos header */
+.botonMenu {
+  width: 20px;
+}
 .imagenHeader {
   width: 100%;
   height: 450px;
@@ -22,7 +24,7 @@
 }
 
 .logoHeader {
-  width: 95px;
+  width: 75px;
 }
 
 .boxLogo {
@@ -36,19 +38,19 @@
 
 .linkReservar {
   font-family: "Montserrat", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
 .linkContacto {
   font-family: "Montserrat", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
 .linkMenu {
   font-family: "Montserrat", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -69,9 +71,15 @@ nav {
 .tituloCanvas {
   font-family: "Montserrat", sans-serif;
   color: #9f1137;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
+
+/* responsive desktop */
+
+@media screen and (min-width: 768px) {
+}
+
 /* estilos footer */
 
 .logoFooter {
