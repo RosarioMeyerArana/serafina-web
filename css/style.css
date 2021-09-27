@@ -7,7 +7,7 @@
 }
 
 .menuIzquierda {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 /* estilos header */
@@ -21,6 +21,27 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.imagenHeader h1 {
+  color: white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  padding: 300px 0 0 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.buttonHeader {
+  padding: 8px 25px;
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
 .logoHeader {
@@ -55,7 +76,7 @@
 }
 
 .fondoSubmenu {
-  background-color: #de3e69;
+  background-color: #9f1137;
 }
 
 .itemSubmenu {
