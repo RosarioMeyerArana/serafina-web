@@ -44,6 +44,12 @@
   margin-left: 20px;
 }
 
+.buttonHeader:hover {
+  background-color: #9f1137;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
 .logoHeader {
   width: 75px;
 }
@@ -99,6 +105,24 @@ nav {
 /* responsive desktop */
 
 @media screen and (min-width: 768px) {
+  .imagenHeader {
+    height: 100vh;
+  }
+
+  .logoHeader {
+    width: 100px;
+  }
+
+  .imagenHeader h1 {
+    font-size: 35px;
+    padding: 450px 0 0 30px;
+  }
+
+  .buttonHeader {
+    padding: 12px 40px;
+    font-size: 14px;
+    margin-left: 30px;
+  }
 }
 
 /* estilos footer */
