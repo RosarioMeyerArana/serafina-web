@@ -31,7 +31,7 @@
         </div>
           <div class="offcanvas offcanvas-start menuIzquierda" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <p class="offcanvas-title tituloCanvas" id="offcanvasNavbarLabel">Serafina</p>
+              <p class="offcanvas-title tituloCanvas" id="offcanvasNavbarLabel"></p>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body fondoCanvas">
@@ -40,12 +40,16 @@
                     menú
                   </a>
                   <ul class="dropdown-menu fondoSubmenu" aria-labelledby="offcanvasNavbarDropdown">
-                    <li><a class="dropdown-item itemSubmenu" href="#">Pastas</a></li>
-                    <li><a class="dropdown-item itemSubmenu" href="#">Lasagna</a></li>
-                    <li><a class="dropdown-item itemSubmenu" href="#">Licores</a></li>
-                    <li><a class="dropdown-item itemSubmenu" href="#">Pizzas</a></li>
-                    <li><a class="dropdown-item itemSubmenu" href="#">Fuertes</a></li>
-                    <li><a class="dropdown-item itemSubmenu" href="#">Burgers</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#pizze">Pizze</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#lasagne-e-pasta">Lasagne e pasta</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#menu-bambini">Menu Bambini</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#antipasti">Antipasti</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#platti-principali">Platti principali</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#addizione">Addizione</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#burger">Burger</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#dolci">Dolci</a></li>
+                    <li><a class="dropdown-item itemSubmenu" href="#bebidas">Bebidas</a></li>
+
                   </ul>
                 </li>
                 <li class="nav-item linkReservar">
@@ -61,28 +65,61 @@
       </nav>
       <div class="imagenHeader">
         <h1>Restaurante italiano</h1>
-        <div><a href="#" class="buttonHeader">HACER RESERVA</a></div>
+        <div class="mt-4">
+          <button class="buttonHeader">
+            <a href="#">HACER RESERVA</a>
+          </button>
+          </div>
       </div>
       <main>
-        <section class="pastas">
-            <h2 class="tittleMenu" id="pastas">pastas</h2>
+        <section class="menu pastas" id="pizze">
+            <h2 class="tittleMenu" id="pizza">PIZZE</h2>
+            <div class="row sectionPizza'" id="sectionPizza">
+              
+            </div>
         </section>
-        <h3 class="tittleTestimonios">testimonios</h3>
-        <section class="contenedorTestimonios">
-          <div class="testimonioUno"> 
+        <section class="menu pastas" id="lasagne-e-pasta">
+          <h2 class="tittleMenu" id="pastas">LASAGNE E PASTA</h2>
+      </section>
+      <section class="menu pastas" id="burger">
+        <h2 class="tittleMenu" id="pastas">BURGER</h2>
+    </section>
+    <section class="menu pastas" id="menu-bambini">
+      <h2 class="tittleMenu" id="pastas">MENU BAMBINI</h2>
+  </section>
+  <section class="menu pastas" id="antipasti">
+    <h2 class="tittleMenu" id="pastas">ANTIPASTI</h2>
+</section>
+<section class="menu pastas" id="platti-principali">
+  <h2 class="tittleMenu" id="pastas">PLATTI PRINCIPALI</h2>
+</section>
+<section class="menu pastas" id="addizione">
+  <h2 class="tittleMenu" id="pastas">ADDIZIONE</h2>
+</section>
+<section class="menu pastas" id="dolci">
+  <h2 class="tittleMenu" id="pastas">DOLCI</h2>
+</section>
+<section class="menu pastas" id="bebidas">
+  <h2 class="tittleMenu" id="pastas">BEBIDAS</h2>
+</section>
+
+        <!-- UBICACIÓN -->
+        <section class="contenedorUbicacion mb-4">
+          <h4 class="tittleMenu">ubicación</h4>
+         <div class="row d-flex align-items-center">
+          <div class="map col-xs-12 col-md-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.572235204052!2d-74.10799188611581!3d4.670088043224737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bbc5aa84625%3A0x1f7a29f11740fd0e!2sSerafina%20Pizza%20Pasta%20Pub!5e0!3m2!1ses!2sar!4v1639486582505!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
-          <div class="testimonioDos"> 
-          </div>
-        </section>
-        <h4 class="tittleUbicacion">ubicación</h4>
-        <section class="contenedorUbicacion">
-          <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5731746390925!2d-74.10808448573674!3d4.669922343225197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b742cdad887%3A0x8ad6156490a5138!2zQWMgNTMgIyM3MWEtMjUsIEJvZ290w6EsIENvbG9tYmlh!5e0!3m2!1ses!2sar!4v1636040309933!5m2!1ses!2sar" width="150" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-          <div class="direccion">
-            <p class="calle">Av Calle 53 # 71 a 25
-              Bogotá,<br> Cundinamarca, Colombia
+          <div class="direccion col-xs-12 col-md-4">
+            <p class="calle mb-4">Av Calle 53 # 71 a 25
+              <br> Bogotá, Cundinamarca, Colombia
             </p>
-            <div><a href="#" class="buttonUbicacion">Ver en Maps</a></div>
-          </div>
+            <div>
+              <button class="w-100 buttonUbicacion">
+                <a href="https://goo.gl/maps/X7sABKwXGVNTjZG58">Ver en Maps</a></div>
+              </button>
+              </div>
+        </div>
         </section>
       </main>
       <footer>
@@ -102,8 +139,14 @@
                 </div>
             </section>
         </div>
-        <p class="textFooter">@2021 Serafina</p>
+        <p class="textFooter">@2022 Serafina</p>
     </footer>
+    <script src="./main.js"></script>
+    <!-- Jquery -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
       <!-- js de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
