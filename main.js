@@ -430,7 +430,17 @@ const filtroAntipasti = productos.filter((prod) => prod.categoria === "antipasti
 const filtroBambini = productos.filter((prod) => prod.categoria === "menu bambini")
 
 
-const pizza = document.getElementById('sectionPizza')
+const sectionPizza = document.getElementById('sectionPizza')
+const sectionPasta = document.getElementById('sectionPasta')
+const sectionPlatoPrincipal = document.getElementById('sectionPlatoPrincipal')
+const sectionBurger = document.getElementById('sectionBurger')
+const sectionAddizione = document.getElementById('sectionAddizione')
+const sectionDolci = document.getElementById('sectionDolci')
+const sectionBebidas = document.getElementById('sectionBebidas')
+const sectionAntipasti = document.getElementById('sectionAntipasti')
+const sectionBambini = document.getElementById('sectionBambini')
+
+
 console.log(pizza)
 
 const newDivPizza = document.createElement("div")
